@@ -1,0 +1,42 @@
+.app {
+  display: grid;
+  grid-template-areas: 
+  'aside header'
+  'aside main'
+  'aside footer';
+  gap: 1.5rem;
+}
+
+.screen {
+  width: 60rem;
+  height: 33.75rem;
+  border-radius: 2rem;
+  box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  position: relative;
+}
+
+.screen::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    to right, 
+    rgb(255 255 255 / 0.1),
+    rgb(255 255 255 / 0.6)
+  );
+  border-radius: inherit;
+  margin: -1px;
+  z-index: -1;
+}
+
+.app {
+  animation: appear 300ms;
+}
+
+@keyframes appear {
+  from {
+    scale: 2;
+    opacity: 0;
+  }
+}

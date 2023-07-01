@@ -1,0 +1,23 @@
+.interaction {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+
+  
+}
+
+.interaction .elipse {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(2px);
+}
+
+.interaction .rectangle {
+  width: 5.375rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(2px);
+}

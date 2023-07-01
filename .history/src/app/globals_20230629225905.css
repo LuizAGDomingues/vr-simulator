@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+aside {
+  grid-area: aside;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: ;
+}

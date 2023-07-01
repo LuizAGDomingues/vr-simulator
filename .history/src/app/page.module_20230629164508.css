@@ -1,0 +1,9 @@
+.side-menu {
+  display: flex;
+  padding: 0.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+
+  
+}
